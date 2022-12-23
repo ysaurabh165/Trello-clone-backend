@@ -1,0 +1,5 @@
+dev:
+  localhost:
+    port: "5432"
+
+logfile: "C:/Users/ysaur/OneDrive/Desktop/Trello-clone-backend/log/api.log"
