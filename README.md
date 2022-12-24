@@ -13,4 +13,5 @@ Few of the major APIs implemented in this POC are as follows:
    This API facilitates the following:</br>
    i. Moving tasks from one list to another via drag and drop.</br>
    ii. Adding SubTasks to a Project.</br>
-   iii. Adding Comments to a Project.
+   iii. Adding Comments to a Project.</br></br></br>
+The folder structure is based on the proposed standard Go layout and widely used by the Go community.
