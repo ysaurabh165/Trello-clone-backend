@@ -25,7 +25,7 @@ func UpdateProjectContents(updatedContent *config.UpdateProjectRequest) (config.
 				}
 			} else if field == "Status" {
 				if x, ok := allProjects[key]; ok {
-					val.Status = updatedContent.Data
+					x.Status = updatedContent.Data
 					allProjects[key] = x
 					fmt.Println(x.Status)
 				}
